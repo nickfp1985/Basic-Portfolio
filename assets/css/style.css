@@ -95,10 +95,18 @@ footer p {
 }
 
 .profile-pic {
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
 }
 
+/* --- CONTACT --- */
 .form-name, .form-email, .form-comment {
     width: 100%;
+}
+
+/* --- PORTFOLIO --- */
+.port-intro {
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
 }
