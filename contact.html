@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Basic Portfolio</title>
+        <title>Nick Portfolio</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -29,9 +29,17 @@
         </header>
         <!-- Main Content -->
         <div class="about-content">
-            <header class="about-header">Contact</header>
-            <div class="about-intro">
-            </div>
+            <header class="box-header">Contact</header>
+            <form action="mailto:someone@example.com" method="post" enctype="text/plain">
+                Name:<br>
+                <input type="text" name="name" class="form-name"><br>
+                Email:<br>
+                <input type="text" name="mail" class="form-email"><br>
+                Message:<br>
+                <textarea  rows="10" cols="157"></textarea><br><br>
+                <input type="submit" value="Send" class="form-submit">
+                <input type="reset" value="Reset" class="form-reset">
+            </form>
         </div>
     </body>
 

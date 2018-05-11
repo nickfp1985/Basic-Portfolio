@@ -79,7 +79,7 @@ footer p {
     background-color: #ffffff;
 }
 
-.about-header {
+.box-header {
     display: flex;
     color: #4aaaa5;
     font-size: 24px;
@@ -97,4 +97,8 @@ footer p {
 .profile-pic {
     height: 200px;
     width: 200px;
+}
+
+.form-name, .form-email, .form-comment {
+    width: 100%;
 }
