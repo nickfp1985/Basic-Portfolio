@@ -72,11 +72,13 @@ footer p {
 /* --- ABOUT --- */
 .about-content {
     width: 960px;
-    display: flex;
-    flex-direction: column;
     margin: 110px 125px 110px 125px;
     padding: 18px;
     background-color: #ffffff;
+}
+
+.about-content p {
+    line-height: 2;
 }
 
 .box-header {
@@ -89,14 +91,9 @@ footer p {
     margin-bottom: 18px;
 }
 
-.about-intro {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .profile-pic {
-    max-height: 200px;
-    max-width: 200px;
+    float: left;
+    margin: 10px 25px 35px 0;
 }
 
 /* --- CONTACT --- */
@@ -108,5 +105,21 @@ footer p {
 .port-intro {
     display: flex;
     flex-wrap: wrap;
-    width: 800px;
+    width: 900px;
+}
+
+.projects {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.portfolio-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: purple;
 }
